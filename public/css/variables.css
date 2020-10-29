@@ -1,0 +1,11 @@
+:root{
+    /* Colors */
+    --color-grey: #faf3dd;
+    --color-green: #2a9d8f;
+
+    /* Space */
+    --space-small: 8px;
+    --space-medium: 16px;
+    --space-big: 24px;
+
+}

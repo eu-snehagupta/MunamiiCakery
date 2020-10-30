@@ -1,0 +1,97 @@
+/* This file design is the product page of the website. */
+.product-page {
+    background-color: var(--color-cream);
+}
+/* ************ Header ************** */
+.product-title {
+    padding: var(--space-medium);
+    text-align: center;
+}
+.product-title .pageLinks {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.product-title .pageLinks a {
+    flex-grow: 1;
+    color: var(--color-brown);
+    font-weight: bold;
+}
+.product-title img {
+    display: block;
+    margin-top: var(--space-big);
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-title h1 {
+    margin-top: var(--space-big);
+}
+/* ******* Section ********** */
+/* ******* Section-cupcake ********** */
+.cupcake h2 {
+    margin-left: var(--space-medium);
+}
+.cupcake .cupcake-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: var(--space-medium);
+}
+.cupcake .cupcake-grid article {
+    background-color:white;
+    margin-bottom: var(--space-small);
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--space-big);
+}
+.cupcake .cupcake-grid article h3 {
+    padding: 0;
+    margin-top: var(--space-small);
+    margin-bottom: 0;
+    text-align: center;
+}
+.cupcake .cupcake-grid article p {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+/* ******* Section-weddingcake ********** */
+.weddingcake h2 {
+    margin-left: var(--space-medium);
+    margin-top: var(--space-big);
+}
+.weddingcake .weddingcake-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: var(--space-medium);
+}
+.weddingcake .weddingcake-grid article {
+    background-color:white;
+    margin-bottom: var(--space-small);
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--space-big);
+}
+.weddingcake .weddingcake-grid article h3 {
+    padding: 0;
+    margin-top: var(--space-small);
+    margin-bottom: 0;
+    text-align: center;
+}
+.weddingcake .weddingcake-grid article p {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+/* ******* Footer ********** */
+.product-contactUs .contactUs-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.product-contactUs .contactUs-list a{
+    color: var(--color-brown);
+    padding: var(--space-small);
+}
+/* ***************** */

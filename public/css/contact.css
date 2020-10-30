@@ -1,0 +1,48 @@
+/* This file design is the contact page of the website. */
+
+/* ************ Header ************** */
+.contact-pictureContainer .pageLinks {
+    height: 240px;
+    background: url(/Users/snehagupta/Documents/sda/WebDevelopment/projects/MunamiiCakery/public/img/contact.jpg) center;
+    background-size: cover;
+    padding: var(--space-medium);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.contact-pictureContainer .pageLinks a {
+    flex-grow: 1;
+    color: white;
+    font-weight: bold;
+}
+
+/* ************ Section ************** */
+.contact-textContainer {
+    background-color: var(--color-cream);
+    padding: var(--space-medium);
+    text-align: center;
+}
+/* ******* Section-header  ********** */
+.contact-textContainer .iconPicture img {
+    display: block;
+    margin-top: var(--space-big);
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+/* ******* Section-section  ********** */
+.contact-textContainer .contactText h1 {
+    margin-top: var(--space-big);
+    color: var(--color-peach);
+}
+/* ******* Section-footer ********** */
+.contact-textContainer .contactUs .contactUs-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.contact-textContainer .contactUs .contactUs-list a{
+    color: var(--color-brown);
+    padding: var(--space-small);
+}
+/* ***************** */

@@ -1,5 +1,6 @@
 # MunamiiCakery
 A basic HTML5/CSS3 website for a bakery shop owner, who wants a formal presence on the web for his clients.
+Google firebase is used to deploy the website.
 
 ## Getting Started
 
@@ -15,7 +16,7 @@ git clone https://github.com/your_username_/MunamiiCakery.git
 6. The header must have a link for each of the 4 pages.
 7. The footer must have links to Email, Instagram and Facebook.
 8. The header and footer must be the same across the 4 pages.
-For more details, please refer to the [Documentation](https://github.com/eu-snehagupta/MunamiiCakery/documentation).
+For more details, please refer to the [Documentation](https://github.com/eu-snehagupta/MunamiiCakery/tree/main/documentation).
 
 ## Roadmap
 See the [open issues](https://github.com/eu-snehagupta/MunamiiCakery/issues) for a list of proposed features (and known issues).

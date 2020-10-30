@@ -43,9 +43,12 @@
     margin-right: auto;
     padding: var(--space-big);
 }
+.cupcake .cupcake-grid img {
+    width: 100px;
+}
 .cupcake .cupcake-grid article h3 {
     padding: 0;
-    margin-top: var(--space-small);
+    margin-top: var(--space-medium);
     margin-bottom: 0;
     text-align: center;
 }
@@ -57,7 +60,7 @@
 }
 /* ******* Section-weddingcake ********** */
 .weddingcake h2 {
-    margin-left: var(--space-medium);
+    margin-left: var(--space-big);
     margin-top: var(--space-big);
 }
 .weddingcake .weddingcake-grid {
@@ -72,9 +75,12 @@
     margin-right: auto;
     padding: var(--space-big);
 }
+.weddingcake .weddingcake-grid img {
+    width: 100px;
+} 
 .weddingcake .weddingcake-grid article h3 {
     padding: 0;
-    margin-top: var(--space-small);
+    margin-top: var(--space-medium);
     margin-bottom: 0;
     text-align: center;
 }
@@ -95,3 +101,20 @@
     padding: var(--space-small);
 }
 /* ***************** */
+/* ***************** */
+/* Desktop */
+@media (min-width: 750px) {
+    .cupcake .cupcake-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .cupcake .cupcake-grid img {
+        width: 200px;
+    }    
+
+    .weddingcake .weddingcake-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .weddingcake .weddingcake-grid img {
+        width: 200px;
+    }  
+}

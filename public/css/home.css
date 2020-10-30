@@ -1,50 +1,61 @@
 /* This file design is the home page of the website. */
-.pictureContainer img {
-    width: 100%;
-}
-.pictureContainer .pageLinks {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-  }
-  .pictureContainer .pageLinks a {
-    color:black;
-    font-weight: bold;
-    padding: var(--space-small);
-  }
 
-  .textSection {
-    background-color: var(--color-grey);
-}
-  .textSection img {
+/* ************ Header ************** */
+.pictureContainer .pageLinks {
+    height: 240px;
+    background: url(/Users/snehagupta/Documents/sda/WebDevelopment/projects/MunamiiCakery/public/img/home.png) center;
+    background-size: cover;
     padding: var(--space-medium);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.pictureContainer .pageLinks a {
+    flex-grow: 1;
+    color: var(--color-brown);
+    font-weight: bold;
+}
+
+/* ************ Section ************** */
+.textContainer {
+    background-color: var(--color-cream);
+    padding: var(--space-medium);
+    text-align: center;
+}
+/* ******* Section-header  ********** */
+.textContainer .iconPicture img {
     display: block;
+    margin-top: var(--space-big);
     margin-left: auto;
     margin-right: auto;
     width: 25%;
-  }
-  .textSection h1 {
-    color:#ffa69e;
-    text-align: center;
-  }
-  .textSection p {
-    text-align: center;
-  }
-  .textSection button{
+}
+/* ******* Section-section  ********** */
+.textContainer .homeText h1 {
+    margin-top: var(--space-big);
+    color: var(--color-peach);
+}
+.textContainer .homeText button{
     display:block;
     background-color:var(--color-green);
     border-radius: var(--space-small);
     color: white;
     font-size: medium;
     font-weight: bold;
-    text-align: center;
     padding: var(--space-small) var(--space-medium);
-  }
-
-  .textSection .centerthis {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
+    margin-top: var(--space-big);
+    margin-bottom: var(--space-big);
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ******* Section-footer ********** */
+.textContainer .contactUs .contactUs-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.textContainer .contactUs .contactUs-list a{
+    color: var(--color-brown);
+    padding: var(--space-small);
+}
+/* ***************** */

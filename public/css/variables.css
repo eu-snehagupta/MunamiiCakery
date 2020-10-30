@@ -1,7 +1,9 @@
 :root{
     /* Colors */
-    --color-grey: #faf3dd;
-    --color-green: #2a9d8f;
+    --color-cream: #faf3dd;
+    --color-green: #52A896;
+    --color-peach: #F2A1A3;
+    --color-brown: #523A1C;
 
     /* Space */
     --space-small: 8px;

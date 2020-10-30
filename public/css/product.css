@@ -9,13 +9,13 @@
 }
 .product-title .pageLinks {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: flex-start;
 }
 .product-title .pageLinks a {
-    flex-grow: 1;
     color: var(--color-brown);
+    flex-grow: 1;
     font-weight: bold;
+    padding: var(--space-medium);
 }
 .product-title img {
     display: block;
@@ -32,9 +32,9 @@
     margin-left: var(--space-medium);
 }
 .cupcake .cupcake-grid {
+    column-gap: var(--space-medium);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: var(--space-medium);
 }
 .cupcake .cupcake-grid article {
     background-color:white;
@@ -47,15 +47,15 @@
     width: 100px;
 }
 .cupcake .cupcake-grid article h3 {
-    padding: 0;
     margin-top: var(--space-medium);
     margin-bottom: 0;
+    padding: 0;
     text-align: center;
 }
 .cupcake .cupcake-grid article p {
-    padding: 0;
     margin-top: 0;
     margin-bottom: 0;
+    padding: 0;
     text-align: center;
 }
 /* ******* Section-weddingcake ********** */
@@ -64,9 +64,9 @@
     margin-top: var(--space-big);
 }
 .weddingcake .weddingcake-grid {
+    column-gap: var(--space-medium);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: var(--space-medium);
 }
 .weddingcake .weddingcake-grid article {
     background-color:white;
@@ -79,15 +79,15 @@
     width: 100px;
 } 
 .weddingcake .weddingcake-grid article h3 {
-    padding: 0;
     margin-top: var(--space-medium);
     margin-bottom: 0;
+    padding: 0;
     text-align: center;
 }
 .weddingcake .weddingcake-grid article p {
-    padding: 0;
     margin-top: 0;
     margin-bottom: 0;
+    padding: 0;
     text-align: center;
 }
 /* ******* Footer ********** */

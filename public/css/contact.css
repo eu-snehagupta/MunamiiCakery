@@ -2,18 +2,17 @@
 
 /* ************ Header ************** */
 .contact-pictureContainer .pageLinks {
-    height: 240px;
     background: url(/Users/snehagupta/Documents/sda/WebDevelopment/projects/MunamiiCakery/public/img/contact.jpg) center;
     background-size: cover;
-    padding: var(--space-medium);
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    height: 240px;
+    justify-content: flex-start;
 }
 .contact-pictureContainer .pageLinks a {
-    flex-grow: 1;
     color: white;
+    flex-grow: 1;
     font-weight: bold;
+    padding: var(--space-medium);
 }
 
 /* ************ Section ************** */
@@ -32,8 +31,8 @@
 }
 /* ******* Section-section  ********** */
 .contact-textContainer .contactText h1 {
-    margin-top: var(--space-big);
     color: var(--color-peach);
+    margin-top: var(--space-big);
 }
 /* ******* Section-footer ********** */
 .contact-textContainer .contactUs .contactUs-list {

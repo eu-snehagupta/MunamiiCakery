@@ -2,18 +2,17 @@
 
 /* ************ Header ************** */
 .about-pictureContainer .pageLinks {
-    height: 240px;
     background: url(/Users/snehagupta/Documents/sda/WebDevelopment/projects/MunamiiCakery/public/img/about.jpg) center;
-    background-size: cover;
-    padding: var(--space-medium);
+    background-size: cover;  
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: flex-start;
+    height: 240px;
 }
 .about-pictureContainer .pageLinks a {
-    flex-grow: 1;
     color: white;
+    flex-grow: 1;
     font-weight: bold;
+    padding: var(--space-medium);
 }
 
 /* ************ Section ************** */
@@ -32,8 +31,8 @@
 }
 /* ******* Section-section  ********** */
 .about-textContainer .aboutText h1 {
-    margin-top: var(--space-big);
     color: var(--color-peach);
+    margin-top: var(--space-big);
 }
 /* ******* Section-footer ********** */
 .about-textContainer .contactUs .contactUs-list {

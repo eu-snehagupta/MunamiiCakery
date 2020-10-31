@@ -2,7 +2,7 @@
 
 /* ************ Header ************** */
 .about-pictureContainer .pageLinks {
-    background: url(/Users/snehagupta/Documents/sda/WebDevelopment/projects/MunamiiCakery/public/img/about.jpg) center;
+    background: url("../img/about.jpg") center;
     background-size: cover;  
     display: flex;
     justify-content: flex-start;

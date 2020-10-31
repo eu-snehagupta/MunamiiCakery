@@ -2,7 +2,7 @@
 
 /* ************ Header ************** */
 .home-pictureContainer .pageLinks {
-    background: url(/Users/snehagupta/Documents/sda/WebDevelopment/projects/MunamiiCakery/public/img/home.jpg) center;
+    background: url("../img/home.jpg") center;
     background-size: cover;
     display: flex;
     height: 240px;

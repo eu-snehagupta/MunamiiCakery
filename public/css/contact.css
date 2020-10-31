@@ -2,7 +2,7 @@
 
 /* ************ Header ************** */
 .contact-pictureContainer .pageLinks {
-    background: url(/Users/snehagupta/Documents/sda/WebDevelopment/projects/MunamiiCakery/public/img/contact.jpg) center;
+    background: url("../img/contact.jpg") center;
     background-size: cover;
     display: flex;
     height: 240px;
